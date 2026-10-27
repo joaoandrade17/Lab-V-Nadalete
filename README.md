@@ -1,7 +1,6 @@
-# TDD — Exercícios de JUnit 5
+# Exercícios Práticos de TDD
 
-Laboratório de Engenharia de Software V — FATEC/SJC — Prof. Lucas G. Nadalete
-Atividade de 26/10 — *Test Driven Development*
+Atividade de 26/10
 
 Três exercícios resolvidos pelo ciclo **Red → Green → Refactor**, em um único
 projeto Maven, com cobertura medida por **JaCoCo**.
@@ -16,20 +15,6 @@ projeto Maven, com cobertura medida por **JaCoCo**.
 | **Cobertura** | **100%** de instruções, branches, linhas e métodos |
 
 ---
-
-## Pré-requisitos
-
-- **JDK 17 ou superior** (com `javac` — um JRE não basta)
-- **Maven 3.6+**
-
-> **Atenção:** o build exige um **JDK**, não apenas um JRE. Em máquinas que têm
-> somente o runtime do Java 21 instalado, o Maven falha com
-> `error: release version 17 not supported`. Nesse caso, aponte o `JAVA_HOME`
-> para um JDK completo antes de rodar:
->
-> ```bash
-> export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
-> ```
 
 ## Build
 
