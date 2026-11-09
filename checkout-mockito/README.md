@@ -1,6 +1,6 @@
 # Checkout com colaboradores simulados — JUnit 5 + Mockito
 
-Laboratório de Engenharia de Software V — FATEC/SJC — Prof. Lucas G. Nadalete
+Atividade de 09/11
 
 Implementação de `ServicoCheckout.finalizar` por TDD. Os quatro colaboradores
 externos (`EstoqueGateway`, `PagamentoGateway`, `PedidoRepository`, `Notificador`)
