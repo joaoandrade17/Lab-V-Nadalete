@@ -1,7 +1,6 @@
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
 [INFO] Running br.edu.checkout.ServicoCheckoutTest
-OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
 [ERROR] Tests run: 22, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.853 s <<< FAILURE! -- in br.edu.checkout.ServicoCheckoutTest
 [ERROR] br.edu.checkout.ServicoCheckoutTest.deveLiberarReservaUmaVezQuandoPagamentoForRecusado -- Time elapsed: 0.016 s <<< FAILURE!
 org.opentest4j.AssertionFailedError: Expected br.edu.checkout.PagamentoRecusadoException to be thrown, but nothing was thrown.
@@ -12,7 +11,3 @@ org.opentest4j.AssertionFailedError: Expected br.edu.checkout.PagamentoRecusadoE
 [ERROR] Tests run: 22, Failures: 1, Errors: 0, Skipped: 0
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
-[INFO] Total time:  4.266 s
-[INFO] Finished at: 2026-11-09T20:33:50-03:00
-[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.5.3:test (default-test) on project checkout-alunos: There are test failures.
-[ERROR] See /home/joaoandrade/Fatec/5º semestre/lab V - nadalete/26-10/tdd-exercicios/checkout-mockito/target/surefire-reports for the individual test results.

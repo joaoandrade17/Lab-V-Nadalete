@@ -1,7 +1,6 @@
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
 [INFO] Running br.edu.checkout.ServicoCheckoutTest
-OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
 [ERROR] Tests run: 21, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.889 s <<< FAILURE! -- in br.edu.checkout.ServicoCheckoutTest
 [ERROR] br.edu.checkout.ServicoCheckoutTest.deveRecusarCompraSemEstoqueSemCobrarRegistrarNotificarNemLiberar -- Time elapsed: 0.652 s <<< FAILURE!
 org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <br.edu.checkout.EstoqueInsuficienteException> but was: <java.lang.NullPointerException>
@@ -13,7 +12,3 @@ Caused by: java.lang.NullPointerException: Cannot invoke "br.edu.checkout.Pagame
 [ERROR] Tests run: 21, Failures: 1, Errors: 0, Skipped: 0
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
-[INFO] Total time:  4.271 s
-[INFO] Finished at: 2026-11-09T20:33:27-03:00
-[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.5.3:test (default-test) on project checkout-alunos: There are test failures.
-[ERROR] See /home/joaoandrade/Fatec/5º semestre/lab V - nadalete/26-10/tdd-exercicios/checkout-mockito/target/surefire-reports for the individual test results.

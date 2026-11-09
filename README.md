@@ -15,6 +15,11 @@ projeto Maven, com cobertura medida por **JaCoCo**.
 | **Total de testes** | **77, todos passando** |
 | **Cobertura** | **100%** de instruções, branches, linhas e métodos |
 
+> **Atividade de 09/11 — Checkout com colaboradores simulados (Mockito):**
+> fica em um projeto Maven separado, na pasta
+> [checkout-mockito/](checkout-mockito/), com README próprio (execução,
+> registro dos ciclos de TDD e respostas).
+
 ---
 
 ## Pré-requisitos

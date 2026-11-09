@@ -1,7 +1,6 @@
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
 [INFO] Running br.edu.checkout.ServicoCheckoutTest
-OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
 [ERROR] Tests run: 16, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.869 s <<< FAILURE! -- in br.edu.checkout.ServicoCheckoutTest
 [ERROR] br.edu.checkout.ServicoCheckoutTest.deveConfirmarCompraAprovadaComTotalDeTresUnidades -- Time elapsed: 0.027 s <<< ERROR!
 java.lang.UnsupportedOperationException: Implemente por TDD
@@ -12,7 +11,3 @@ java.lang.UnsupportedOperationException: Implemente por TDD
 [ERROR] Tests run: 16, Failures: 0, Errors: 1, Skipped: 0
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
-[INFO] Total time:  4.359 s
-[INFO] Finished at: 2026-11-09T20:32:01-03:00
-[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.5.3:test (default-test) on project checkout-alunos: 
-[ERROR] See /home/joaoandrade/Fatec/5º semestre/lab V - nadalete/26-10/tdd-exercicios/checkout-mockito/target/surefire-reports for the individual test results.

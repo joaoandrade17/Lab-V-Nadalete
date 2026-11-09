@@ -1,11 +1,8 @@
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
 [INFO] Running br.edu.checkout.ServicoCheckoutTest
-OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
 [INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.735 s -- in br.edu.checkout.ServicoCheckoutTest
 [INFO] Results:
 [INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
-[INFO] Total time:  4.245 s
-[INFO] Finished at: 2026-11-09T20:31:35-03:00
