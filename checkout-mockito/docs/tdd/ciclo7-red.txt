@@ -1,0 +1,18 @@
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running br.edu.checkout.ServicoCheckoutTest
+OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+[ERROR] Tests run: 24, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.900 s <<< FAILURE! -- in br.edu.checkout.ServicoCheckoutTest
+[ERROR] br.edu.checkout.ServicoCheckoutTest.deveManterCompraQuandoNotificacaoFalhar -- Time elapsed: 0.011 s <<< ERROR!
+br.edu.checkout.FalhaNotificacaoException: servidor de e-mail fora do ar
+
+[INFO] Results:
+[ERROR] Errors: 
+[ERROR]   ServicoCheckoutTest.deveManterCompraQuandoNotificacaoFalhar:201 » FalhaNotificacao servidor de e-mail fora do ar
+[ERROR] Tests run: 24, Failures: 0, Errors: 1, Skipped: 0
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] Total time:  4.370 s
+[INFO] Finished at: 2026-11-09T20:34:52-03:00
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.5.3:test (default-test) on project checkout-alunos: 
+[ERROR] See /home/joaoandrade/Fatec/5º semestre/lab V - nadalete/26-10/tdd-exercicios/checkout-mockito/target/surefire-reports for the individual test results.
