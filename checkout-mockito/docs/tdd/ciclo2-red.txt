@@ -1,0 +1,32 @@
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running br.edu.checkout.ServicoCheckoutTest
+OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+[ERROR] Tests run: 15, Failures: 14, Errors: 0, Skipped: 0, Time elapsed: 0.798 s <<< FAILURE! -- in br.edu.checkout.ServicoCheckoutTest
+[ERROR] br.edu.checkout.ServicoCheckoutTest.deveRejeitarSolicitacaoInvalidaSemConsultarColaboradores(String, SolicitacaoCheckout)[1] -- Time elapsed: 0.626 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+Caused by: java.lang.UnsupportedOperationException: Implemente por TDD
+
+[ERROR] br.edu.checkout.ServicoCheckoutTest.deveRejeitarSolicitacaoInvalidaSemConsultarColaboradores(String, SolicitacaoCheckout)[2] -- Time elapsed: 0.007 s <<< FAILURE!
+[ERROR] br.edu.checkout.ServicoCheckoutTest.deveRejeitarSolicitacaoInvalidaSemConsultarColaboradores(String, SolicitacaoCheckout)[3] -- Time elapsed: 0.006 s <<< FAILURE!
+[ERROR] br.edu.checkout.ServicoCheckoutTest.deveRejeitarSolicitacaoInvalidaSemConsultarColaboradores(String, SolicitacaoCheckout)[4] -- Time elapsed: 0.005 s <<< FAILURE!
+[ERROR] br.edu.checkout.ServicoCheckoutTest.deveRejeitarSolicitacaoInvalidaSemConsultarColaboradores(String, SolicitacaoCheckout)[5] -- Time elapsed: 0.004 s <<< FAILURE!
+[ERROR] br.edu.checkout.ServicoCheckoutTest.deveRejeitarSolicitacaoInvalidaSemConsultarColaboradores(String, SolicitacaoCheckout)[6] -- Time elapsed: 0.004 s <<< FAILURE!
+[ERROR] br.edu.checkout.ServicoCheckoutTest.deveRejeitarSolicitacaoInvalidaSemConsultarColaboradores(String, SolicitacaoCheckout)[7] -- Time elapsed: 0.005 s <<< FAILURE!
+[ERROR] br.edu.checkout.ServicoCheckoutTest.deveRejeitarSolicitacaoInvalidaSemConsultarColaboradores(String, SolicitacaoCheckout)[8] -- Time elapsed: 0.004 s <<< FAILURE!
+[ERROR] br.edu.checkout.ServicoCheckoutTest.deveRejeitarSolicitacaoInvalidaSemConsultarColaboradores(String, SolicitacaoCheckout)[9] -- Time elapsed: 0.004 s <<< FAILURE!
+[ERROR] br.edu.checkout.ServicoCheckoutTest.deveRejeitarSolicitacaoInvalidaSemConsultarColaboradores(String, SolicitacaoCheckout)[10] -- Time elapsed: 0.005 s <<< FAILURE!
+[ERROR] br.edu.checkout.ServicoCheckoutTest.deveRejeitarSolicitacaoInvalidaSemConsultarColaboradores(String, SolicitacaoCheckout)[11] -- Time elapsed: 0.005 s <<< FAILURE!
+[ERROR] br.edu.checkout.ServicoCheckoutTest.deveRejeitarSolicitacaoInvalidaSemConsultarColaboradores(String, SolicitacaoCheckout)[12] -- Time elapsed: 0.003 s <<< FAILURE!
+[ERROR] br.edu.checkout.ServicoCheckoutTest.deveRejeitarSolicitacaoInvalidaSemConsultarColaboradores(String, SolicitacaoCheckout)[13] -- Time elapsed: 0.005 s <<< FAILURE!
+[ERROR] br.edu.checkout.ServicoCheckoutTest.deveRejeitarSolicitacaoInvalidaSemConsultarColaboradores(String, SolicitacaoCheckout)[14] -- Time elapsed: 0.004 s <<< FAILURE!
+[INFO] Results:
+[ERROR] Failures: 
+[ERROR]   ServicoCheckoutTest.deveRejeitarSolicitacaoInvalidaSemConsultarColaboradores:55 Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+[ERROR] Tests run: 15, Failures: 14, Errors: 0, Skipped: 0
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] Total time:  4.241 s
+[INFO] Finished at: 2026-11-09T20:31:15-03:00
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.5.3:test (default-test) on project checkout-alunos: There are test failures.
+[ERROR] See /home/joaoandrade/Fatec/5º semestre/lab V - nadalete/26-10/tdd-exercicios/checkout-mockito/target/surefire-reports for the individual test results.
