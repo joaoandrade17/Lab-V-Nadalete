@@ -16,8 +16,7 @@ projeto Maven, com cobertura medida por **JaCoCo**.
 
 > **Atividade de 09/11 — Checkout com colaboradores simulados (Mockito):**
 > fica em um projeto Maven separado, na pasta
-> [checkout-mockito/](checkout-mockito/), com README próprio (execução,
-> registro dos ciclos de TDD e respostas).
+> [checkout-mockito/](checkout-mockito/) (Java 21; rode `mvn test` dentro dela).
 
 ---
 

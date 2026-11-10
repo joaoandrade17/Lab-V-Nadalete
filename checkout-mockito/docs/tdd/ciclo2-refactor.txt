@@ -1,8 +1,0 @@
-[INFO]  T E S T S
-[INFO] -------------------------------------------------------
-[INFO] Running br.edu.checkout.ServicoCheckoutTest
-[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.842 s -- in br.edu.checkout.ServicoCheckoutTest
-[INFO] Results:
-[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0
-[INFO] ------------------------------------------------------------------------
-[INFO] BUILD SUCCESS
